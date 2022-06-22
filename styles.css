@@ -1,0 +1,71 @@
+.center-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    width: 100%;
+}
+.form{
+    width: 450px;
+}
+.side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#mybtn
+{
+    margin:0px 0.4em;
+    padding: 5px 2em;
+}
+.item-list
+{
+    visibility: hidden;
+}
+.show-list{
+    visibility: visible;
+}
+.items
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 4px 0px;
+    margin:1em 0px;
+    transition: 0.7s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.items:hover
+{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.item{
+    font-size: 1em;
+    flex:1;
+    margin: 0px 1em;
+}
+.btns
+{
+    margin:0px 4px;
+   
+}
+.fa-trash
+{
+    color: red;
+}
+.fa-edit
+{
+    color: forestgreen;
+}
+.fa-trash,.fa-edit:hover{
+    cursor: pointer;
+}
+.clear-btn
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
